@@ -32,12 +32,16 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ ok: false, error: 'Server not configured. Please set EMAIL_USER, EMAIL_PASS and EMAIL_TO in environment.' }, { status: 500 })
     }
 
+
+
+
+
     // Build transporter (works with Gmail + app password or other SMTP providers)
     const transporter = nodemailer.createTransport({
       host: process.env.SMTP_HOST || 'smtp.gmail.com',
       port: Number(process.env.SMTP_PORT || 465),
       secure: process.env.SMTP_SECURE ? process.env.SMTP_SECURE === 'true' : true,
-      auth: { user, pass },
+      auth: { user, pass: pass?.trim() },
     })
 
     const subject = data.subject && data.subject.trim().length ? data.subject : 'New message from portfolio contact form'
