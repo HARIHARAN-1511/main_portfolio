@@ -122,7 +122,7 @@ export default function LoadingScreen() {
 
         {/* Name and Title */}
         <motion.div variants={itemVariants} className="mb-8">
-          <motion.h1 
+          <motion.h1
             className="text-4xl font-bold text-gray-900 mb-2"
             animate={{
               opacity: [0.7, 1, 0.7],
@@ -133,9 +133,9 @@ export default function LoadingScreen() {
               ease: 'easeInOut'
             }}
           >
-            Your Name
+            HARIHARAN T
           </motion.h1>
-          <motion.p 
+          <motion.p
             className="text-lg text-gray-600"
             variants={itemVariants}
           >
@@ -149,7 +149,7 @@ export default function LoadingScreen() {
             <span className="text-sm font-medium text-gray-600">Loading Portfolio</span>
             <span className="text-sm font-medium text-primary-600">{progress}%</span>
           </div>
-          
+
           <div className="w-full bg-gray-200 rounded-full h-2 overflow-hidden">
             <motion.div
               className="h-full bg-gradient-to-r from-primary-500 to-accent-500 rounded-full relative"
@@ -174,7 +174,7 @@ export default function LoadingScreen() {
         </motion.div>
 
         {/* Loading Dots */}
-        <motion.div 
+        <motion.div
           variants={itemVariants}
           className="flex items-center justify-center space-x-2 mt-8"
         >

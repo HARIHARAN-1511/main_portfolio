@@ -10,11 +10,11 @@
     *   Click **Create repository**.
 
 2.  **Push Your Code**:
-    *   Copy the URL of your new repository (e.g., `https://github.com/YOUR_USERNAME/my-portfolio.git`).
+    *   Copy the URL of your new repository (e.g., `https://github.com/HARIHARAN-1511/main_portfolio.git`).
     *   Open your terminal in VS Code (Ctrl+`) and run these commands:
 
     ```bash
-    git remote add origin https://github.com/YOUR_USERNAME/my-portfolio.git
+    git remote add origin https://github.com/HARIHARAN-1511/main_portfolio.git
     git branch -M main
     git push -u origin main
     ```
