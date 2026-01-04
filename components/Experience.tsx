@@ -9,23 +9,23 @@ const experiences = [
     title: 'Incubation Trainee (Mentee)',
     company: 'Kanini Software Solutions',
     location: 'Chennai, Tamil Nadu',
-    period: 'Feb 2025 - Present',
+    period: 'Nov 2024 - Nov 2025',
     type: 'Full-time',
-    description: 'Engaged in an industry mentorship program, gaining expertise in data analysis, professional development, and soft skills. Currently working on a Multi-agent Framework that can parse through repositories and generate a success report, and also give feedback with the help of Lang chain, Lan graph libraries.',
+    description: 'Completed an industry mentorship program focused on gaining expertise in data analysis, soft skills, and industry readiness. Designed a multi-agent framework that parses repositories, generates success reports, and delivers automated feedback using Langchain and Langgraph libraries.',
     technologies: ['LangChain', 'LangGraph', 'Python', 'Multi-agent Systems'],
     achievements: [
-      'Developing advanced multi-agent framework for repository analysis',
-      'Gaining expertise in data analysis and professional development',
-      'Working with cutting-edge AI frameworks'
+      'Designed a multi-agent framework for repository analysis',
+      'Completed industry mentorship program for data analysis',
+      'Developed automated feedback systems using LangChain'
     ]
   },
   {
     title: 'Freelance Web Developer',
     company: 'PSVIT Solution (psvitsolution.in)',
     location: 'Chennai, Tamil Nadu',
-    period: 'Sep 2025 - Present',
+    period: 'Sep 2025 - Dec 2025',
     type: 'Freelance',
-    description: 'Developed and launched the official company website for PSVIT Solution, spotlighting the brand\'s commitment to operational excellence and customer satisfaction across IT equipment rentals—including printers, scanners, and copiers. Collaborated with stakeholders to deliver a responsive, consultancy-focused platform that supports diverse business sectors.',
+    description: 'Developed and launched the official company website for PSVIT Solution, spotlighting the brand\'s commitment to operational excellence and customer satisfaction across IT equipment rentals—including printers, scanners, and copiers. Collaborated with stakeholders to deliver a responsive, consultancy-focused platform that supports diverse business sectors and enhances customer engagement in a competitive market.',
     technologies: ['React', 'Next.js', 'Tailwind CSS', 'Web Development'],
     achievements: [
       'Successfully launched official company website',
@@ -51,7 +51,7 @@ export default function Experience() {
           transition={{ duration: 0.6 }}
         >
           {/* Section Header */}
-          <motion.div 
+          <motion.div
             className="text-center mb-16"
             initial={{ opacity: 0, y: -30 }}
             animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: -30 }}
@@ -78,10 +78,10 @@ export default function Experience() {
               >
                 {/* Gradient Accent */}
                 <div className="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-blue-600 to-blue-700"></div>
-                
+
                 {/* Background Glow */}
                 <div className="absolute top-0 right-0 w-64 h-64 bg-gradient-to-br from-blue-600/5 to-indigo-600/5 rounded-full blur-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                
+
                 <div className="relative z-10 pl-6">
                   {/* Header */}
                   <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4 gap-4">
