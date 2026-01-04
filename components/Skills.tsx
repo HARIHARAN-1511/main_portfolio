@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 import { useState } from 'react'
+import { FiCode } from 'react-icons/fi'
 import {
   SiPython, SiJavascript, SiReact, SiNodedotjs, SiMongodb,
   SiMysql, SiTensorflow, SiPytorch, SiGit, SiDocker,
@@ -17,6 +18,7 @@ const skillCategories = [
       { name: 'Python', level: 90, icon: SiPython, color: '#3776AB' },
       { name: 'JavaScript', level: 85, icon: SiJavascript, color: '#F7DF1E' },
       { name: 'TypeScript', level: 75, icon: SiTypescript, color: '#3178C6' },
+      { name: 'C', level: 80, icon: FiCode, color: '#A8B9CC' },
     ]
   },
   {
