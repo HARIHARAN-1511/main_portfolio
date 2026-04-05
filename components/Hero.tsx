@@ -67,8 +67,9 @@ export default function Hero() {
 
           {/* Description */}
           <p className="text-lg sm:text-xl text-slate-400 max-w-3xl mx-auto mb-12 leading-relaxed">
-            Aspiring Full Stack Engineer & AI/ML Enthusiast with strong skills in React, Python, and AI-driven applications. 
+            Aspiring AI/ML Enthusiast with strong skills in Python, and AI-driven applications. 
             Experienced in developing scalable projects that integrate Machine Learning, NLP, GenAI APIs, and Web Technologies.
+            Passionate about building real-world solutions, research-driven development, and delivering high-performance applications.
           </p>
 
           {/* CTA Buttons */}

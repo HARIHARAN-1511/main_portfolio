@@ -12,7 +12,7 @@ export default function Resume() {
 
 
   // Use Google Drive link provided (opens resume in Drive viewer)
-  const resumeUrl = 'https://drive.google.com/file/d/1srDKakL3yzQSNVv9-h2vJTSTIRl1LBIV/view?usp=sharing'
+  const resumeUrl = 'https://drive.google.com/file/d/17izDErqUkjANAUtHsALsFdcC2zIu9wnb/view?usp=sharing'
 
   const containerVariants = {
     hidden: { opacity: 0 },

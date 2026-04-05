@@ -5,46 +5,59 @@ import { useInView } from 'react-intersection-observer'
 import { useState } from 'react'
 import { FiCode } from 'react-icons/fi'
 import {
-  SiPython, SiJavascript, SiReact, SiNodedotjs, SiMongodb,
-  SiMysql, SiTensorflow, SiPytorch, SiGit, SiDocker,
-  SiHtml5, SiCss3, SiTailwindcss, SiNextdotjs, SiTypescript
+  SiPython, SiReact, SiNodedotjs, SiMongodb,
+  SiMysql, SiTensorflow, SiGit,
+  SiHtml5, SiCss3, SiTailwindcss, SiNextdotjs
 } from 'react-icons/si'
-import { FaJava, FaAws } from 'react-icons/fa'
 
 const skillCategories = [
   {
-    title: 'Programming Languages',
+    title: 'Programming',
     skills: [
       { name: 'Python', level: 90, icon: SiPython, color: '#3776AB' },
-      { name: 'JavaScript', level: 85, icon: SiJavascript, color: '#F7DF1E' },
-      { name: 'TypeScript', level: 75, icon: SiTypescript, color: '#3178C6' },
-      { name: 'C', level: 80, icon: FiCode, color: '#A8B9CC' },
     ]
   },
   {
-    title: 'Web Technologies',
+    title: 'Frontend',
     skills: [
-      { name: 'React', level: 88, icon: SiReact, color: '#61DAFB' },
-      { name: 'Next.js', level: 82, icon: SiNextdotjs, color: '#000000' },
-      { name: 'Node.js', level: 85, icon: SiNodedotjs, color: '#339933' },
       { name: 'HTML5', level: 95, icon: SiHtml5, color: '#E34F26' },
       { name: 'CSS3', level: 90, icon: SiCss3, color: '#1572B6' },
       { name: 'Tailwind CSS', level: 88, icon: SiTailwindcss, color: '#06B6D4' },
+      { name: 'React', level: 88, icon: SiReact, color: '#61DAFB' },
+      { name: 'Next.js', level: 82, icon: SiNextdotjs, color: '#000000' },
     ]
   },
   {
-    title: 'AI/ML & Data',
+    title: 'Backend',
+    skills: [
+      { name: 'Node.js', level: 85, icon: SiNodedotjs, color: '#339933' },
+      { name: 'Flask', level: 80, icon: SiPython, color: '#000000' },
+      { name: 'FastAPI', level: 82, icon: SiPython, color: '#009688' },
+    ]
+  },
+  {
+    title: 'Databases',
+    skills: [
+      { name: 'MongoDB', level: 78, icon: SiMongodb, color: '#47A248' },
+      { name: 'SQL', level: 82, icon: SiMysql, color: '#4479A1' },
+    ]
+  },
+  {
+    title: 'AI/ML',
     skills: [
       { name: 'TensorFlow', level: 85, icon: SiTensorflow, color: '#FF6F00' },
-      { name: 'PyTorch', level: 80, icon: SiPytorch, color: '#EE4C2C' },
-      { name: 'MongoDB', level: 78, icon: SiMongodb, color: '#47A248' },
-      { name: 'MySQL', level: 82, icon: SiMysql, color: '#4479A1' },
+      { name: 'Keras', level: 83, icon: SiTensorflow, color: '#D00000' },
+      { name: 'NLP', level: 80, icon: FiCode, color: '#8B5CF6' },
+      { name: 'RAG', level: 78, icon: FiCode, color: '#06B6D4' },
+      { name: 'LLM APIs', level: 82, icon: FiCode, color: '#10B981' },
     ]
   },
   {
-    title: 'Tools & Platforms',
+    title: 'Tools',
     skills: [
       { name: 'Git', level: 88, icon: SiGit, color: '#F05032' },
+      { name: 'GitHub', level: 88, icon: FiCode, color: '#181717' },
+      { name: 'OpenAI API', level: 82, icon: FiCode, color: '#412991' },
     ]
   }
 ]

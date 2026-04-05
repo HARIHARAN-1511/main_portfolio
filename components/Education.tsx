@@ -11,7 +11,7 @@ const educationData = [
     field: 'Computer Science and Engineering',
     specialization: 'Specialization in AIML',
     institution: 'SRM University',
-    cgpa: '8.67',
+    cgpa: '8.70',
     highlights: ['AIML Specialization', 'Research Publications', 'Hackathon Winner'],
   },
 ]

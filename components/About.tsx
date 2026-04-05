@@ -9,10 +9,10 @@ import mainImg from '../assets/images/mainimg.jpg'
 const skills = [
   { name: 'Python', level: 90 },
   { name: 'React/Next.js', level: 88 },
-  { name: 'Node.js', level: 82 },
-  { name: 'Machine Learning', level: 85 },
+  { name: 'FastAPI/Flask', level: 82 },
+  { name: 'TensorFlow/Keras', level: 85 },
+  { name: 'NLP/RAG/LLM APIs', level: 83 },
   { name: 'MongoDB/SQL', level: 80 },
-  { name: 'OpenAI API/GenAI', level: 85 },
 ]
 
 const interests = [
@@ -103,12 +103,12 @@ export default function About() {
               className="space-y-6"
             >
               <h3 className="text-2xl font-space-grotesk font-bold text-blue-400 mb-4">Profile & Highlights</h3>
-              <p className="text-slate-300 leading-relaxed">Full Stack Engineer & AI/ML enthusiast based in Chennai, India. I build scalable web applications (React / Next.js, Node.js) and data-driven AI solutions — integrating ML models, GenAI APIs and polished frontend experiences.</p>
+              <p className="text-slate-300 leading-relaxed">Aspiring AI/ML Enthusiast with strong skills in Python and AI-driven applications. Experienced in developing scalable projects that integrate Machine Learning, NLP, GenAI APIs, and Web Technologies. Passionate about building real-world solutions, research-driven development, and delivering high-performance applications.</p>
 
               <ul className="text-slate-400 list-disc list-inside space-y-2">
-                <li>Recent experience as an Incubation Trainee working on ML frameworks and production-ready pipelines.</li>
-                <li>Built AI-driven projects (mock-interview platform, multimodal emotion recognition) using TensorFlow / PyTorch and modern web stacks.</li>
-                <li>Active in hackathons and published work related to ML and student-performance evaluation.</li>
+                <li>Machine Learning Intern at GradTwin Services — working on model development, data handling, and scalable ML system design.</li>
+                <li>Built AI-driven projects (disaster response platform, badminton analyzer, mock-interview system) using OpenCV, YOLOv8, and modern web stacks.</li>
+                <li>Published in IEEE and IJERCSE; active in hackathons (GenAI 2024, HackVerse 2025).</li>
               </ul>
 
               {/* resume image link intentionally removed per request */}

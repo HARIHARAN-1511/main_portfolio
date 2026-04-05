@@ -6,6 +6,24 @@ import { FiGithub, FiExternalLink, FiCode } from 'react-icons/fi'
 
 const projects = [
   {
+    title: 'AI-Powered Disaster Response & Damage Assessment',
+    description: 'Developed an AI-powered video analysis platform utilizing OpenCV and YOLOv8 to automatically track player movements, segment match rallies, and classify over 18 distinct shot types with high accuracy. Built a full-stack dashboard (React, FastAPI, WebSockets) to visualize game momentum, identify tactical player mistakes, and generate comprehensive data-driven PDF performance reports in real time.',
+    technologies: ['React.js', 'Python', 'FastAPI', 'WebSockets', 'OpenCV', 'YOLOv8', 'Pandas'],
+    image: '🌍',
+    gradient: 'from-emerald-600 to-blue-600',
+    github: 'https://github.com/HARIHARAN-1511',
+    featured: true,
+  },
+  {
+    title: 'Badminton AI Analyzer',
+    description: 'Built a computer vision-based system to analyze badminton gameplay, including rally detection and player movement tracking. Developed a video processing pipeline to generate match insights and performance metrics for game analysis.',
+    technologies: ['FastAPI', 'React', 'YOLOv8', 'OpenCV', 'NumPy', 'Pandas'],
+    image: '🏸',
+    gradient: 'from-violet-600 to-blue-600',
+    github: 'https://github.com/HARIHARAN-1511',
+    featured: true,
+  },
+  {
     title: 'AI-Driven Mock Interview Platform',
     description: 'Built a RAG-powered mock interview assistant that asks context-aware questions from PDF material and validates candidate answers. Designed backend analysis modules for grammar, tone, and speech disfluencies, integrated with real-time feedback APIs and Next.js frontend dashboards.',
     technologies: ['FastAPI', 'Flask', 'ChromaDB', 'Cloudflare', 'TensorFlow', 'Keras', 'LLM'],

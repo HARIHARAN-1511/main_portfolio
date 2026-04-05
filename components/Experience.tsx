@@ -6,17 +6,17 @@ import { FiBriefcase, FiCalendar, FiMapPin } from 'react-icons/fi'
 
 const experiences = [
   {
-    title: 'Incubation Trainee (Mentee)',
-    company: 'Kanini Software Solutions',
+    title: 'Machine Learning Intern',
+    company: 'GradTwin Services (OPC) Pvt. Ltd.',
     location: 'Chennai, Tamil Nadu',
-    period: 'Nov 2024 - Nov 2025',
-    type: 'Full-time',
-    description: 'Completed an industry mentorship program focused on gaining expertise in data analysis, soft skills, and industry readiness. Designed a multi-agent framework that parses repositories, generates success reports, and delivers automated feedback using Langchain and Langgraph libraries.',
-    technologies: ['LangChain', 'LangGraph', 'Python', 'Multi-agent Systems'],
+    period: 'Mar 2026 - Jun 2026',
+    type: 'Internship',
+    description: 'Applied machine learning concepts to solve real-world problems, focusing on model development, data handling, and practical implementation. Strengthened skills in debugging, optimization, and scalable ML system design through structured mentorship and hands-on projects.',
+    technologies: ['Python', 'Machine Learning', 'Data Analysis', 'ML System Design'],
     achievements: [
-      'Designed a multi-agent framework for repository analysis',
-      'Completed industry mentorship program for data analysis',
-      'Developed automated feedback systems using LangChain'
+      'Applied ML concepts to solve real-world problems',
+      'Focused on model development, data handling, and practical implementation',
+      'Strengthened skills in debugging, optimization, and scalable ML system design'
     ]
   },
   {
@@ -31,6 +31,20 @@ const experiences = [
       'Successfully launched official company website',
       'Enhanced customer engagement across business sectors',
       'Delivered responsive, consultancy-focused platform'
+    ]
+  },
+  {
+    title: 'Incubation Trainee (Mentee)',
+    company: 'Kanini Software Solutions',
+    location: 'Chennai, Tamil Nadu',
+    period: 'Nov 2024 - Nov 2025',
+    type: 'Full-time',
+    description: 'Completed an industry mentorship program focused on gaining expertise in data analysis, soft skills, and industry readiness. Designed a multi-agent framework that parses repositories, generates success reports, and delivers automated feedback using Langchain and Langgraph libraries.',
+    technologies: ['LangChain', 'LangGraph', 'Python', 'Multi-agent Systems'],
+    achievements: [
+      'Designed a multi-agent framework for repository analysis',
+      'Completed industry mentorship program for data analysis',
+      'Developed automated feedback systems using LangChain'
     ]
   },
 ]
