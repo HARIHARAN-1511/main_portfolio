@@ -11,7 +11,7 @@ const projects = [
     technologies: ['React.js', 'Python', 'FastAPI', 'WebSockets', 'OpenCV', 'YOLOv8', 'Pandas'],
     image: '🌍',
     gradient: 'from-emerald-600 to-blue-600',
-    github: 'https://github.com/HARIHARAN-1511',
+    github: 'https://github.com/HARIHARAN-1511/final_year_project.git',
     featured: true,
   },
   {
@@ -20,7 +20,7 @@ const projects = [
     technologies: ['FastAPI', 'React', 'YOLOv8', 'OpenCV', 'NumPy', 'Pandas'],
     image: '🏸',
     gradient: 'from-violet-600 to-blue-600',
-    github: 'https://github.com/HARIHARAN-1511',
+    github: 'https://github.com/HARIHARAN-1511/badminton_AI_analyzer.git',
     featured: true,
   },
   {
@@ -29,7 +29,7 @@ const projects = [
     technologies: ['FastAPI', 'Flask', 'ChromaDB', 'Cloudflare', 'TensorFlow', 'Keras', 'LLM'],
     image: '🎤',
     gradient: 'from-blue-600 to-blue-700',
-    github: 'https://github.com/Krishna311204/mock-interviewer',
+    github: 'https://github.com/Krishna311204/mock-interviewer.git',
     featured: true,
   },
   {
